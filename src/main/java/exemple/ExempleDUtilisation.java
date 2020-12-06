@@ -42,7 +42,7 @@ public class ExempleDUtilisation {
         Scenario monScenario = new Scenario(monBandeau);
         monScenario.ajouterEffet(new Zoom(monBandeau,5,"on zoome",60));
         monScenario.ajouterEffet(new Tourner(monBandeau,4,"on tourne"));
-        monScenario.ajouterEffet(new ChangeCouleurFond(monBandeau, 1, "Le fond change de couleur",Color.BLUE));
+        monScenario.ajouterEffet(new ChangerCouleurFond(monBandeau, 1, "Le fond change de couleur",Color.BLUE));
         monScenario.ajouterEffet(new ChangeCouleurPolice(monBandeau,1,"La police change de couleur" ,Color.RED));
         
         monScenario.jouerScenario();
