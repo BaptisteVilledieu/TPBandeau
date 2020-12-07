@@ -2,7 +2,7 @@ package exemple;
 
 import bandeau.Bandeau;
 import java.awt.Color;
-import java.awt.Font;
+//import java.awt.Font;
 
 public class ExempleDUtilisation {
     
